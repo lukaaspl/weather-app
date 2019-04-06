@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import './App.css';
-import WeatherForm from './WeatherForm';
-import WeatherResult from './WeatherResult';
+import './styles/App.css';
+import WeatherForm from './components/WeatherForm';
+import WeatherResult from './components/WeatherResult';
 
 class App extends Component {
   state = {
